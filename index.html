@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+    
+        <p id="pswrd" > Get Your Own Unique password</p>
+        <form action="" id="data">
+            <label for="length">Password Length</label>  
+            <input type="number" max="20" min="1" value="16" name="length" class="option" id="length"><br><br>
+            <label for="ucase">Uppercase Character</label>  
+            <input type="checkbox" checked name="ucase"  class="option" id="ucase"> <br><br>
+            <label for="lcase">Lowercase Character</label>  
+            <input type="checkbox" name="lcase"  class="option" id="lcase"> <br><br>
+            <label for="digit">Numberic Character </label> 
+            <input type="checkbox" name="digit"  class="option" id="digit"> <br><br>
+            <label for="symbol">Special Character </label> 
+            <input type="checkbox" name="symbol" class="option"  id="symbol"> <br><br>
+            <button id="gen">Generate</button>
+        </form>
+    </div>
+    <script src="rules.js"></script>
+    
+</body>
+</html>
