@@ -1,4 +1,4 @@
-# passwordGenerator
+# The Securable
 The Securable is a powerful tool designed to help you create strong and unique passwords effortlessly. With increasing concerns about online security, it's more important than ever to use strong passwords to protect your sensitive information from unauthorized access.
 
 **Key Features:**
